@@ -1,0 +1,17 @@
+table{
+    border: collapse 30px; 
+    background-color: wheat;
+    width: 100%;
+}
+th, td{
+    box-shadow: inset;
+    background-position: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+th{
+    border: 2px;
+}
+.order{
+    text-align: center;
+}

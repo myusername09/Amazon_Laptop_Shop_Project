@@ -1,0 +1,103 @@
+<!--
+<footer>
+    <div fxFlex fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center center"
+         class.xs="footer-xs">
+      <div fxFlex="100" class="text-center copyright">
+        <span class="footer-text">{{ 'angularShoppingListsApp'  }} 2023</span>
+      </div>
+    </div>
+-->
+<body>
+<footer>
+    <div class="container-fluid"
+		style="background-color:mediumturquoise; color: white; margin-top: 200px;">
+		<form (ngSubmit)="SendFeed()">
+		<div class="container">
+			
+			<h3 class="text-center">Get in touch with us</h3>
+			<p class="text-center">
+				<em>We love our fans!</em>
+			</p>
+			<div class="row test">
+				<div class="col-md-4">
+					<p>Fan? Drop a note.</p>
+					<p>
+						<span class="glyphicon glyphicon-map-marker"></span>Edubridge Learning Pvt. Ltd.
+					</p>
+					<p>
+						<span class="glyphicon glyphicon-phone"></span>Phone: +91
+						7499153042
+					</p>
+					<p>
+						<span class="glyphicon glyphicon-envelope"></span><a href="Email:">
+						edubridgelearningindia@gmail.com</a>
+					</p>
+					<p>
+						<span class="glyphicon glyphicon-copyright-mark"></span>
+						Edubridge India - 2023
+					</p>
+					<p>
+						<span class="glyphicon glyphicon-address"></span>
+						Pimpri Chinchwad, near Dalwinagar,Somvar Peth
+						Pune, Maharashtra · 080 4800 7564
+					</p>
+				</div>
+
+				<!--
+				<div class="col-md-8">
+					<form action="fansMessage" method="post">
+						<div class="row">
+							<div class="col-sm-6 form-group">
+								<input class="form-control" id="name" name="name"
+									placeholder="Name" type="text" required [(ngModel)]="foot.name">
+							</div>
+							<div class="col-sm-6 form-group">
+								<input class="form-control" id="email" name="email"
+									placeholder="Email" type="email" required [(ngModel)]="foot.email">
+							</div>
+						</div>
+						<textarea class="form-control" id="comments" name="comments"
+							placeholder="Comment" rows="5" required [(ngModel)]="foot.comments>
+						</textarea>
+						
+						<div class="row">
+							<div class="col-md-12 form-group">
+								<button class="btn pull-right" type="submit">Send</button>
+							</div>
+						</div>
+					-->
+
+					<div class="col-md-8">
+						<div class="row">
+							<div class="col-sm-6 form-group">
+						<label for="exampleFormControlInput1" class="form-label">Customer Name</label>
+						<input type="text" class="form-control" id="name" name="name" [(ngModel)]="footer.name">
+					  </div>
+					  </div>
+					  
+					  <div class="col-mb-3">
+						<div class="row">
+					  <div class="col-sm-6 form-group">
+					   <label for="exampleFormControlInput1" class="form-label">Email</label>
+					   <input type="text" class="form-control" id="email" name="email" [(ngModel)]="footer.email" >
+					 </div>
+					 </div>
+					 </div>
+					 <div class="row">
+						<div class="col-md-12 form-group">
+						<label for="exampleFormControlInput1" class="form-label">Comments</label>
+						<textarea class="form-control" id="comments" name="comments" [(ngModel)]="footer.comments" >
+						</textarea>
+					  </div>
+					  </div>
+					  
+					  <button  class="btn pull-right"type="submit" class="btn btn-danger">Send</button>
+				
+			</div>
+		</div>
+		</div>
+	</form>
+	</div>
+
+  </footer>
+</body>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+    
+</head>
+-->
+<body>
+    <!--
+    <div class="container col-md-6">
+    -->
+        <h1 style="color:blue;">Order Product</h1>
+         <form (ngSubmit)="NewOrder()">
+    <div class="container">
+        
+            <div class="form-group">
+            
+                <div class="mb-3">
+                
+                <div class="name-group"></div>
+            
+                    <div class="col">
+                    
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="fname" [(ngModel)]="neworder.firstname" required>
+                    </div>
+                    <div class="col">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lname" [(ngModel)]="neworder.lastname" required>
+                    </div>
+                </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" [(ngModel)]="neworder.email" required>
+            </div>
+            <div class="form-group">
+                <label for="address1">Address 1</label>
+                <input type="text" id="address1" name="address1" [(ngModel)]="neworder.address1" required>
+            </div>
+            <div class="form-group">
+                <label for="address2">Address 2</label>
+                <input type="text" id="address2" name="address2" [(ngModel)]="neworder.address2">
+            </div>
+            <div class="form-group">
+                <div class="name-group">
+                    <div class="col">
+                        <label for="country">Country</label>
+                        <input type="text" id="country" name="country" [(ngModel)]="neworder.country" required>
+                    </div>
+                    <div class="col">
+                        <label for="zipcode">Zipcode</label>
+                        <input type="text" id="zipcode" name="zipcode" [(ngModel)]="neworder.zipcode"required>
+                    </div>
+                    <div class="col">
+                        <label for="state">State</label>
+                        <input type="text" id="state" name="state"  [(ngModel)]="neworder.state"required>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        
+            <!--
+            <div class="order">
+                <button type="button" routerLink="/vieworder" class="btn btn-primary btn-lg "><i class="fa fa-order glyphicon glyphicon-order">View Orders</i></button>
+            
+            </div>
+        -->
+              
+          
+        <!--
+    
+
+
+        <div class="cart">
+            <h2>Your Cart</h2>
+            <div class="order-details">
+                <div class="item-details">
+                    <label for="item1">Item 1</label>
+                    <input type="text" id="item1" name="item1" placeholder="Item 1 details">
+                </div>
+                <div class="item-details">
+                    <label for="item2">Item 2</label>
+                    <input type="text" id="item2" name="item2" placeholder="Item 2 details">
+                </div>
+                <div class="order-details">
+                    <div class="item-details">
+                        <label for="item4">Item 3</label>
+                        <input type="text" id="item3" name="item3" placeholder="Item 3 details">
+                    </div>
+                    <div class="item-details">
+                        <label for="item4">Item 4</label>
+                        <input type="text" id="item4" name="item4" placeholder="Item 4 details">
+                    </div>
+            </div>
+            <div class="total-price">
+                <label for="Total Price">Total Price</label>
+                        <input type="text" id="price" name="Total Price" placeholder="Price  details">
+                
+            </div>
+        </div>
+    </div>
+-->
+    </div>
+    </div>
+    
+    </form>
+    
+  
+
+</body>
+

@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  
+  main {
+    padding: 20px;
+  }
+  
+  .services-section {
+    text-align: center;
+  }
+  
+  .services-section h1 {
+    font-size: 36px;
+  }
+  
+  .services-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services-section li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+    

@@ -1,0 +1,57 @@
+<body>
+  <nav class="navbar navbar-expand-sm bg-info">
+<strong style="text-align:center;">CART</strong>
+  </nav>
+    <table>
+    <tr>
+        
+        <th class="b-0">Image</th>
+        <th class="b-0">Name</th>
+        <th class="b-0">Description</th>
+        <th class="b-0">Price</th>
+        
+       <!-- <th class="b-0">Quantity</th>
+    -->
+        
+      </tr>
+      <tr *ngFor="let item of items">
+        
+            
+        
+        
+        <img src="{{item.image}}">
+        <td>{{item.name }}</td>
+        <td>{{item.description}}</td>
+        <td>{{ item.price }}</td>
+      
+        <!--
+        <td>
+          <button class="btn btn-primary btn-sm" (click)="_increamentQTY(item.productId._id,1)">+</button>
+          {{ item.quantity }}
+          <button class="btn btn-primary btn-sm">-</button>
+        </td>
+    
+        <td class="text-right">
+          <h5 class="font-medium m-b-30">{{ item.total }}</h5>
+        </td>
+    -->
+      </tr>
+     <!--
+      <tr>
+       
+        <td colspan="4" align="right">
+          <button class="btn btn-danger" (click)="_ClearCart()">Empty Cart</button>
+        </td>
+      </tr>
+    -->
+
+    
+    </table>
+
+    <div class="order">
+      <button type="button" routerLink="/neworder" class="btn btn-primary btn-lg "><i class="fa fa-order glyphicon glyphicon-order">Order Now</i></button>
+  
+  </div>
+    
+
+

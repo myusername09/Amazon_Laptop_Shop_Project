@@ -1,0 +1,272 @@
+
+<!--
+<div>
+    <img class="img-responsive" src="assets/laptop.jpg">
+    <h5>Dell Laptop</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quae, reprehenderit quod, eaque minus tempora obcaecati inventore, perspiciatis sunt beatae enim sint ut labore harum eligendi. Nemo laboriosam nihil explicabo?</p>
+    <P><strong>Price:Rs.45998</strong></P>
+<button class="btn btn-primary">Add to Cart</button>
+</div>
+-->
+        <!--
+<table border="3px" >
+
+    
+        <td>
+            <div *ngIf="product">
+    <img class="img-responsive" src="{{product.image}}">
+    
+    <h5>{{product.name}}</h5>
+    <p>{{product.description}}</p>
+    <P><strong>Price:{{product.price}}</strong></P>
+<button class="btn btn-info "  (click)="addToCart(product)">Add to Cart</button>
+&nbsp;&nbsp;
+<button class="btn btn-danger"   (click)="addToWishlist(product)">Add to Wishlist</button>
+</div>
+</td>
+
+<td>
+<div *ngIf="product">
+    <img class="img-responsive" src="{{product1.image}}">
+    <h5>{{product1.name}}</h5>
+    <p>{{product1.description}}</p>
+    <P><strong>Price:{{product1.price}}</strong></P>
+<button class="btn btn-info"   (click)="addToCart(product1)">Add to Cart</button>
+&nbsp;&nbsp;
+<button class="btn btn-danger"   (click)="addToWishlist(product1)">Add to Wishlist</button>
+</div>
+</td>
+<td>
+<div *ngIf="product">
+    <img class="img-responsive" src="{{product2.image}}">
+    <h5>{{product2.name}}</h5>
+    <p>{{product2.description}}</p>
+    <P><strong>Price:{{product2.price}}</strong></P>
+<button class="btn btn-info"   (click)="addToCart(product2)">Add to Cart</button>
+&nbsp;&nbsp;
+<button class="btn btn-danger"   (click)="addToWishlist(product2)">Add to Wishlist</button>
+</div>
+</td>
+
+<td>
+    <div *ngIf="product">
+        <img class="img-responsive" src="{{product3.image}}">
+        <h5>{{product3.name}}</h5>
+        <p>{{product3.description}}</p>
+        <P><strong>Price:{{product3.price}}</strong></P>
+    <button class="btn btn-info "  (click)="addToCart(product3)">Add to Cart</button>
+    &nbsp;&nbsp;
+    <button class="btn btn-danger"   (click)="addToWishlist(product3)">Add to Wishlist</button>
+    </div>
+    </td>
+
+    <td>
+        <div *ngIf="product">
+            <img class="img-responsive" src="{{product4.image}}">
+            <h5>{{product4.name}}</h5>
+            <p>{{product4.description}}</p>
+            <P><strong>Price:{{product4.price}}</strong></P>
+        <button class="btn btn-info "  (click)="addToCart(product4)">Add to Cart</button>
+        &nbsp;&nbsp;
+        <button class="btn btn-danger"   (click)="addToWishlist(product4)">Add to Wishlist</button>
+        </div>
+        </td>
+
+        <td>
+            <div *ngIf="product">
+                <img class="img-responsive" src="{{product5.image}}">
+                <h5>{{product5.name}}</h5>
+                <p>{{product5.description}}</p>
+                <P><strong>Price:{{product5.price}}</strong></P>
+            <button class="btn btn-info "  (click)="addToCart(product5)">Add to Cart</button>
+            &nbsp;&nbsp;
+            <button class="btn btn-danger"   (click)="addToWishlist(product5)">Add to Wishlist</button>
+            </div>
+            </td>
+
+            <td>
+                <div *ngIf="product">
+                    <img class="img-responsive" src="{{product6.image}}">
+                    <h5>{{product6.name}}</h5>
+                    <p>{{product6.description}}</p>
+                    <P><strong>Price:{{product6.price}}</strong></P>
+                <button class="btn btn-info"   (click)="addToCart(product6)">Add to Cart</button>
+                &nbsp;&nbsp;
+                <button class="btn btn-danger"   (click)="addToWishlist(product6)">Add to Wishlist</button>
+                </div>
+                </td>
+    
+                <td>
+                    <div *ngIf="product">
+                        <img class="img-responsive" src="{{product7.image}}">
+                        <h5>{{product7.name}}</h5>
+                        <p>{{product1.description}}</p>
+                        <P><strong>Price:{{product7.price}}</strong></P>
+                    <button class="btn btn-info"   (click)="addToCart(product7)">Add to Cart</button>
+                    &nbsp;&nbsp;
+                    <button class="btn btn-danger"   (click)="addToWishlist(product7)">Add to Wishlist</button>
+                    </div>
+                    </td>
+
+                    <td>
+                        <div *ngIf="product">
+                            <img class="img-responsive" src="{{product8.image}}">
+                            <h5>{{product1.name}}</h5>
+                            <p>{{product8.description}}</p>
+                            <P><strong>Price:{{product8.price}}</strong></P>
+                        <button class="btn btn-info"   (click)="addToCart(product8)">Add to Cart</button>
+                        &nbsp;&nbsp;
+                        <button class="btn btn-danger"   (click)="addToWishlist(product8)">Add to Wishlist</button>
+                        </div>
+                        </td>
+
+                        <td>
+                            <div *ngIf="product">
+                                <img class="img-responsive" src="{{product9.image}}">
+                                <h5>{{product9.name}}</h5>
+                                <p>{{product9.description}}</p>
+                                <P><strong>Price:{{product9.price}}</strong></P>
+                            <button class="btn btn-info"   (click)="addToCart(product9)">Add to Cart</button>
+                            &nbsp;&nbsp;
+                            <button class="btn btn-danger"   (click)="addToWishlist(product9)">Add to Wishlist</button>
+                            </div>
+                            </td>
+
+                            <td>
+                                <div *ngIf="product">
+                                    <img class="img-responsive" src="{{product10.image}}">
+                                    <h5>{{product10.name}}</h5>
+                                    <p>{{product10.description}}</p>
+                                    <P><strong>Price:{{product10.price}}</strong></P>
+                                <button class="btn btn-info"   (click)="addToCart(product10)">Add to Cart</button>
+                                &nbsp;&nbsp;
+                                <button class="btn btn-danger"   (click)="addToWishlist(product10)">Add to Wishlist</button>
+                                </div>
+                                </td>
+
+                                <td>
+                                    <div *ngIf="product">
+                                        <img class="img-responsive" src="{{product11.image}}">
+                                        <h5>{{product11.name}}</h5>
+                                        <p>{{product11.description}}</p>
+                                        <P><strong>Price:{{product1.price}}</strong></P>
+                                    <button class="btn btn-info"   (click)="addToCart(product11)">Add to Cart</button>
+                                    &nbsp;&nbsp;
+                                    <button class="btn btn-danger"   (click)="addToWishlist(product11)">Add to Wishlist</button>
+                                    </div>
+                                    </td>
+
+                                    <td>
+                                        <div *ngIf="product">
+                                            <img class="img-responsive" src="{{product12.image}}">
+                                            <h5>{{product12.name}}</h5>
+                                            <p>{{product12.description}}</p>
+                                            <P><strong>Price:{{product12.price}}</strong></P>
+                                        <button class="btn btn-info"   (click)="addToCart(product12)">Add to Cart</button>
+                                        &nbsp;&nbsp;
+                                        <button class="btn btn-danger"   (click)="addToWishlist(product12)">Add to Wishlist</button>
+                                        </div>
+                                        </td>
+
+</table>
+-->
+
+<!-- product.component.html -->
+<!--
+<div class="image-gallery">
+    <div class="product" *ngFor="let image of displayedImages">
+        <img [src]="product.image" alt="Image" />
+    
+
+
+    </div>
+  </div>
+  
+  <div class="pagination">
+    <button (click)="prevPage()" [disabled]="currentPage === 1">Previous</button>
+    <button (click)="nextPage()" [disabled]="currentPage === totalPages">Next</button>
+  </div>
+  
+-->
+
+<!--
+
+<div class="image-gallery">
+  <div class="product" *ngFor="let image of displayedImages">
+      <img [src]="product.image" alt="Image" />
+  
+
+
+  </div>
+</div>
+
+<div class="pagination">
+  <button (click)="prevPage()" [disabled]="currentPage === 1">Previous</button>
+  <button (click)="nextPage()" [disabled]="currentPage === totalPages">Next</button>
+</div>
+
+-->
+<body>
+    <nav class="navbar navbar-expand-sm bg-info">
+        <strong style="text-align:center;">Products</strong>
+          </nav>
+
+    
+    <div class="col-md-12">
+        <div class="row">
+            
+          <div class="col-md-3 mb-3" *ngFor="let product of products">
+              <div class="card-mb-3" style="height:250px;">
+              <div class="row g-0">
+                  <div class="col-md-4">
+                      <img [src]="product.image" class="img-fluid" style="height: 250px;"/>
+              </div>
+              <div class="col-md-8">
+                  <div class="card-body">
+                      <div *ngIf="product">
+                      <h5 class="card-title text-danger">{{product.name}}</h5>
+                      <h5 class="card-title text-danger">{{product.description}}</h5>
+                      <h5 class="card-title text-danger">{{product.price}}</h5>
+                     <!--
+                      <h5 class="card-title text-danger">{{product.image}}</h5>
+                     -->
+                  
+                      <button class="btn btn-info"   (click)="addToCart(product)">Add to Cart</button>
+                      &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;
+                                        <button class="btn btn-danger"   (click)="addToWishlist(product)">Add to Wishlist</button>
+                                        </div>
+                                        
+                                        </div>
+    
+                 </div>
+                                      </div>
+              </div>
+              </div>
+          </div>
+          </div>
+          
+          
+<br>
+<br>
+<br>
+      <div class="row" align="center">
+          <div class="col-md-2 d-flex justify-content-center" align="center">
+              <div class="form-inline float-left mr-1" align="center">
+                  <select class="form-control" align="center" [value]="productsPerPage" (change)="changePageSize($event)">
+    <option value="4"> 4 per page</option>
+    <option value="8"> 8 per page</option>
+    <option value="12"> 12 per page</option>
+    <option value="16">16 per page</option>
+                  </select>
+              </div>
+              <div class="btn-group flot-right" align="center">
+                  <button class="btn btn-outline-primary " 
+                  *ngFor="let page of pageNumbers" 
+                  (click)="changePage(page)" 
+                  [class.active]="page == selectedPage">{{page}}</button>
+              
+                </div>
+          </div>
+      </div>
+    
+    </body>

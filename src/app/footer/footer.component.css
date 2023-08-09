@@ -1,0 +1,18 @@
+footer {
+    padding: 8px 16px;
+    color:black;
+    
+    margin-top: 2em;
+    position: sticky;
+    top: 100%;
+    .copyright {
+      margin: 1em 0 1em;
+      font-size: 0.7em;
+      
+    }
+    img {
+      width: 25%;
+    }
+  }
+  
+  
